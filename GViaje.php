@@ -563,10 +563,7 @@
                 <!-- /.row -->
 
                 <div class="row">
-                    <div class="col-lg-12">
-                        <h2>Notas</h2>
-                        <p>en esta seccion cuentas con toda la informacion necesaria para comunicarte con tu grupo de sercicio comunitario de <a target="_blank" href="http://getbootstrap.com/css/#tables">Ingenieria de Sistemas</a> actualmente cuentas con 10 bachilleres.</p>
-                    </div>
+                    
                 </div>
                 <!-- /.row -->
 
