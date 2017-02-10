@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Informacion</title>
+    <title>Gastos De Viaje</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -149,7 +149,7 @@
             <!-- Sidebar Menu Items - These collapse to the responsive navigation menu on small screens -->
             <div class="collapse navbar-collapse navbar-ex1-collapse">
                 <ul class="nav navbar-nav side-nav">
-                    <li class="active">
+                    <li>
                         <a href="index.html"><i class="fa fa-fw fa-dashboard"></i>Principal</a>
                     </li>
                     <li>
@@ -167,7 +167,7 @@
                     <li>
                         <a href="MOINST.php"><i class="fa fa-fw fa-table"></i>M. O. INST.</a>
                     </li>
-                    <li>
+                    <li class="active">
                         <a href="GViaje.php"><i class="fa fa-fw fa-table"></i>G. Viaje</a>
                     </li>
                     <li>
@@ -203,86 +203,162 @@
                                 <i class="fa fa-dashboard"></i>  <a href="index.html">Principal</a>
                             </li>
                             <li class="active">
-                                <i class="fa fa-table"></i> Lista de Estudiantes
+                                <i class="fa fa-table"></i> Gastos de Viaje
                             </li>
                         </ol>
                     </div>
                 </div>
-                <!-- /.row -->
+                <!-- /row -->
 
                 <div class="row">
                     <div class="col-lg-12">
-                        <h2>Grupo de servicio comunitario</h2>
+                        <h2>Concepto: Viaje Levantamiento</h2>
                         <div class="table-responsive">
                             <table class="table table-bordered table-hover table-striped">
                                 <thead>
                                     <tr>
-                                        <th>Nombre, Apellido</th>
-                                        <th>Numero Telefonico</th>
-                                        <th>Cedula</th>
-                                        <th>Correo</th>
+                                        <th></th>
+                                        <th>Hotel</th>
+                                        <th>Alimentos</th>
+                                        <th>Transporte</th>
+                                        <th>Casetas</th>
+                                        <th>Gasolina</th>
+                                        <th>Cantidad De dias</th>
+                                        <th>M.N.</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td><a href="#">Primer Nombre, Primer Apellido</a></td>
-                                        <td>000000</td>
-                                        <td>cedula</td>
-                                        <td><a href="#">corre@dominio.com</a></td>
+                                        <td>Ingeniero A</td>
+                                        <td>Hotel</td>
+                                        <td>Alimentos</td>
+                                        <td>Transporte</td>
+                                        <td>Casetas</td>
+                                        <td>Gasolina</td>
+                                        <td>Cantidad De dias</td>
+                                        <td>M.N.</td>
+                                    </tr>
+                                    
+                                    <tr>
+                                        <td>Tecnico A</td>
+                                        <td>Hotel</td>
+                                        <td>Alimentos</td>
+                                        <td>Transporte</td>
+                                        <td>Casetas</td>
+                                        <td>Gasolina</td>
+                                        <td>Cantidad De dias</td>
+                                        <td>M.N.</td>
+                                    </tr>
+                                   <tr>
+                                        <td>Tecnico B</td>
+                                        <td>Hotel</td>
+                                        <td>Alimentos</td>
+                                        <td>Transporte</td>
+                                        <td>Casetas</td>
+                                        <td>Gasolina</td>
+                                        <td>Cantidad De dias</td>
+                                        <td>M.N.</td>
                                     </tr>
                                     <tr>
-                                        <td><a href="#">Primer Nombre, Primer Apellido</a></td>
-                                        <td>000000</td>
-                                        <td>cedula</td>
-                                        <td><a href="#">corre@dominio.com</a></td>
+                                        <td>Ayudante</td>
+                                        <td>Hotel</td>
+                                        <td>Alimentos</td>
+                                        <td>Transporte</td>
+                                        <td>Casetas</td>
+                                        <td>Gasolina</td>
+                                        <td>Cantidad De dias</td>
+                                        <td>M.N.</td>
                                     </tr>
                                     <tr>
-                                        <td><a href="#">Primer Nombre, Primer Apellido</a></td>
-                                        <td>000000</td>
-                                        <td>cedula</td>
-                                        <td><a href="#">corre@dominio.com</a></td>
+                                        <td>Total</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>TOTAL</td>
+                                    </tr>
+                                    
+                                   
+                                   
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.row -->
+        
+                <!-- /.row -->
+
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h2>Concepto: viaje tula</h2>
+                        <div class="table-responsive">
+                            <table class="table table-bordered table-hover table-striped">
+                                <thead>
+                                    <tr>
+                                        <th></th>
+                                        <th>Hotel</th>
+                                        <th>Alimentos</th>
+                                        <th>Transporte</th>
+                                        <th>Casetas</th>
+                                        <th>Gasolina</th>
+                                        <th>Cantidad de Dias</th>
+                                        <th>M. N.</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Ingeniero A</td>
+                                        <td>Hotel</td>
+                                        <td>Alimentos</td>
+                                        <td>Transporte</td>
+                                        <td>Casetas</td>
+                                        <td>Gasolina</td>
+                                        <td>Cantidad De dias</td>
+                                        <td>M.N.</td>
+                                    </tr>
+                                    
+                                    <tr>
+                                        <td>Tecnico A</td>
+                                        <td>Hotel</td>
+                                        <td>Alimentos</td>
+                                        <td>Transporte</td>
+                                        <td>Casetas</td>
+                                        <td>Gasolina</td>
+                                        <td>Cantidad De dias</td>
+                                        <td>M.N.</td>
+                                    </tr>
+                                   <tr>
+                                        <td>Tecnico B</td>
+                                        <td>Hotel</td>
+                                        <td>Alimentos</td>
+                                        <td>Transporte</td>
+                                        <td>Casetas</td>
+                                        <td>Gasolina</td>
+                                        <td>Cantidad De dias</td>
+                                        <td>M.N.</td>
                                     </tr>
                                     <tr>
-                                        <td><a href="#">Primer Nombre, Primer Apellido</a></td>
-                                        <td>000000</td>
-                                        <td>cedula</td>
-                                        <td><a href="#">corre@dominio.com</a></td>
+                                        <td>Ayudante</td>
+                                        <td>Hotel</td>
+                                        <td>Alimentos</td>
+                                        <td>Transporte</td>
+                                        <td>Casetas</td>
+                                        <td>Gasolina</td>
+                                        <td>Cantidad De dias</td>
+                                        <td>M.N.</td>
                                     </tr>
-                                    <tr>
-                                        <td><a href="#">Primer Nombre, Primer Apellido</a></td>
-                                        <td>000000</td>
-                                        <td>cedula</td>
-                                        <td><a href="#">corre@dominio.com</a></td>
-                                    </tr>
-                                    <tr>
-                                        <td><a href="#">Primer Nombre, Primer Apellido</a></td>
-                                        <td>000000</td>
-                                        <td>cedula</td>
-                                        <td><a href="#">corre@dominio.com</a></td>
-                                    </tr>
-                                    <tr>
-                                        <td><a href="#">Primer Nombre, Primer Apellido</a></td>
-                                        <td>000000</td>
-                                        <td>cedula</td>
-                                        <td><a href="#">corre@dominio.com</a></td>
-                                    </tr>
-                                    <tr>
-                                        <td><a href="#">Primer Nombre, Primer Apellido</a></td>
-                                        <td>000000</td>
-                                        <td>cedula</td>
-                                        <td><a href="#">corre@dominio.com</a></td>
-                                    </tr>
-                                    <tr>
-                                        <td><a href="#">Primer Nombre, Primer Apellido</a></td>
-                                        <td>000000</td>
-                                        <td>cedula</td>
-                                        <td><a href="#">corre@dominio.com</a></td>
-                                    </tr>
-                                    <tr>
-                                        <td><a href="#">Primer Nombre, Primer Apellido</a></td>
-                                        <td>000000</td>
-                                        <td>cedula</td>
-                                        <td><a href="#">corre@dominio.com</a></td>
+                                     <tr>
+                                        <td>Total</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>TOTAL</td>
                                     </tr>
                                    
                                 </tbody>
@@ -292,7 +368,198 @@
                 </div>
                 <!-- /.row -->
 
-                
+                <!-- /.row -->
+
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h2>Concepto: Estancia en sitio</h2>
+                        <div class="table-responsive">
+                            <table class="table table-bordered table-hover table-striped">
+                                <thead>
+                                    <tr>
+                                        <th></th>
+                                        <th>Hotel</th>
+                                        <th>Alimentos</th>
+                                        <th>Transporte</th>
+                                        <th>Casetas</th>
+                                        <th>Gasolina</th>
+                                        <th>Cantidad de Dias</th>
+                                        <th>M. N.</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                     <tr>
+                                        <td>Ingeniero A</td>
+                                        <td>Hotel</td>
+                                        <td>Alimentos</td>
+                                        <td>Transporte</td>
+                                        <td>Casetas</td>
+                                        <td>Gasolina</td>
+                                        <td>Cantidad De dias</td>
+                                        <td>M.N.</td>
+                                    </tr>
+                                    
+                                    <tr>
+                                        <td>Tecnico A</td>
+                                        <td>Hotel</td>
+                                        <td>Alimentos</td>
+                                        <td>Transporte</td>
+                                        <td>Casetas</td>
+                                        <td>Gasolina</td>
+                                        <td>Cantidad De dias</td>
+                                        <td>M.N.</td>
+                                    </tr>
+                                   <tr>
+                                        <td>Tecnico B</td>
+                                        <td>Hotel</td>
+                                        <td>Alimentos</td>
+                                        <td>Transporte</td>
+                                        <td>Casetas</td>
+                                        <td>Gasolina</td>
+                                        <td>Cantidad De dias</td>
+                                        <td>M.N.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Ayudante</td>
+                                        <td>Hotel</td>
+                                        <td>Alimentos</td>
+                                        <td>Transporte</td>
+                                        <td>Casetas</td>
+                                        <td>Gasolina</td>
+                                        <td>Cantidad De dias</td>
+                                        <td>M.N.</td>
+                                    </tr>
+                                     <tr>
+                                        <td>Total</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>TOTAL</td>
+                                    </tr>
+                                   
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.row -->
+
+                    <!-- /.row -->
+
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h2>Concepto:Viaje extra</h2>
+                        <div class="table-responsive">
+                            <table class="table table-bordered table-hover table-striped">
+                                <thead>
+                                    <tr>
+                                        <th></th>
+                                        <th>Hotel</th>
+                                        <th>Alimentos</th>
+                                        <th>Transporte</th>
+                                        <th>Casetas</th>
+                                        <th>Gasolina</th>
+                                        <th>Cantidad de Dias</th>
+                                        <th>M. N.</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Ingeniero A</td>
+                                        <td>Hotel</td>
+                                        <td>Alimentos</td>
+                                        <td>Transporte</td>
+                                        <td>Casetas</td>
+                                        <td>Gasolina</td>
+                                        <td>Cantidad De dias</td>
+                                        <td>M.N.</td>
+                                    </tr>
+                                    
+                                    <tr>
+                                        <td>Tecnico A</td>
+                                        <td>Hotel</td>
+                                        <td>Alimentos</td>
+                                        <td>Transporte</td>
+                                        <td>Casetas</td>
+                                        <td>Gasolina</td>
+                                        <td>Cantidad De dias</td>
+                                        <td>M.N.</td>
+                                    </tr>
+                                   <tr>
+                                        <td>Tecnico B</td>
+                                        <td>Hotel</td>
+                                        <td>Alimentos</td>
+                                        <td>Transporte</td>
+                                        <td>Casetas</td>
+                                        <td>Gasolina</td>
+                                        <td>Cantidad De dias</td>
+                                        <td>M.N.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Ayudante</td>
+                                        <td>Hotel</td>
+                                        <td>Alimentos</td>
+                                        <td>Transporte</td>
+                                        <td>Casetas</td>
+                                        <td>Gasolina</td>
+                                        <td>Cantidad De dias</td>
+                                        <td>M.N.</td>
+                                    </tr>
+                                     <tr>
+                                        <td>Total</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>TOTAL</td>
+                                    </tr>
+                                   
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.row -->
+
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h2>Total</h2>
+                        <div class="table-responsive">
+                            <table class="table table-bordered table-hover table-striped">
+                                <thead>
+                                    <tr>
+                                        
+                                        <th>Costo Total Pesos</th>
+                                        <th>Valor del Dolar</th>
+                                        <th>Costo Total en Dolares Americanos</th>
+                                        <th>% Utilidad En gasto</th>
+                                        <th>Utilidad En gasto</th>
+                                        
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Costo Total Pesos</td>
+                                        <td>Valor del Dolar</td>
+                                        <td>Costo Total en Dolares Americanos</td>
+                                        <td>% Utilidad En gasto</td>
+                                        <td>Utilidad En gasto</td>
+                                        
+                                    </tr>
+                                    
+                                    
+                                   
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
                 <!-- /.row -->
 
                 <div class="row">
