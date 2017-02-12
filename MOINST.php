@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Informacion</title>
+    <title>Mano de obra Instalacion en Campo</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -149,7 +149,7 @@
             <!-- Sidebar Menu Items - These collapse to the responsive navigation menu on small screens -->
             <div class="collapse navbar-collapse navbar-ex1-collapse">
                 <ul class="nav navbar-nav side-nav">
-                    <li class="active">
+                    <li>
                         <a href="index.html"><i class="fa fa-fw fa-dashboard"></i>Principal</a>
                     </li>
                     <li>
@@ -164,7 +164,7 @@
                     <li>
                         <a href="Manufactura.php"><i class="fa fa-fw fa-table"></i>Manufactura</a>
                     </li>
-                    <li>
+                    <li class="active">
                         <a href="MOINST.php"><i class="fa fa-fw fa-table"></i>M. O. INST.</a>
                     </li>
                     <li>
@@ -196,14 +196,14 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <h1 class="page-header">
-                            Informacion de tu grupo
+                            Mano de Obra por Instalacion en Campo
                         </h1>
                         <ol class="breadcrumb">
                             <li>
                                 <i class="fa fa-dashboard"></i>  <a href="index.html">Principal</a>
                             </li>
                             <li class="active">
-                                <i class="fa fa-table"></i> Lista de Estudiantes
+                                <i class="fa fa-table"></i> Mano de Obra por Instalacion en Campo
                             </li>
                         </ol>
                     </div>
@@ -212,78 +212,178 @@
 
                 <div class="row">
                     <div class="col-lg-12">
-                        <h2>Grupo de servicio comunitario</h2>
+                        <h2>Mano de obra por Instalacion en Campo</h2>
                         <div class="table-responsive">
                             <table class="table table-bordered table-hover table-striped">
                                 <thead>
                                     <tr>
-                                        <th>Nombre, Apellido</th>
-                                        <th>Numero Telefonico</th>
-                                        <th>Cedula</th>
-                                        <th>Correo</th>
+                                        <th>Tarifa Hora Hombre</th>
+                                        <th>Costo por Hora</th>
+                                        
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    
+                                    <tr>
+                                        <td>Ingeniero Tipo A</td>
+                                        <td>000000</td>
+                                        
+                                    </tr>
+                                    <tr>
+                                        <td>Tecnico A</td>
+                                        <td>000000</td>
+                                        
+                                    </tr>
+                                    <tr>
+                                        <td>Tecnico B</td>
+                                        <td>000000</td>
+                                       
+                                    </tr>
+                                    <tr>
+                                        <td>Ayudante</td>
+                                        <td>000000</td>
+                                       
+                                    </tr>
+                                    
+                                   
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+               <!-- /.row -->
+
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h2>Mano de obra por Instalacion en Campo</h2>
+                        <div class="table-responsive">
+                            <table class="table table-bordered table-hover table-striped">
+                            <thead>
+                                    <tr>
+                                        <th></th>
+                                        <th></th>
+                                        <th>80</th>
+                                        <th>50</th>
+                                        <th>45</th>
+                                        <th>40</th>
+                                        <th></th>
+                                        <th></th>
+                                        <th></th>
+                                        <th></th>
+                                        <th></th>
+                                        <th></th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <thead>
+                                    <tr>
+                                        <th>Partida</th>
+                                        <th>Concepto</th>
+                                        <th>Ing.A</th>
+                                        <th>Tec.A</th>
+                                        <th>Tec.B</th>
+                                        <th>Ayd</th>
+                                        <th>T en Horas</th>
+                                        <th></th>
+                                        <th>Ing.A</th>
+                                        <th>Tec.A</th>
+                                        <th>Tec.B</th>
+                                        <th>Ayd</th>
+                                        <th>Total</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td><a href="#">Primer Nombre, Primer Apellido</a></td>
-                                        <td>000000</td>
-                                        <td>cedula</td>
-                                        <td><a href="#">corre@dominio.com</a></td>
+                                        <td>Partida</td>
+                                        <td>Concepto</td>
+                                        <td>Ing.A</td>
+                                        <td>Tec.A</td>
+                                        <td>Tec.B</td>
+                                        <td>Ayd</td>
+                                        <td>T en Horas</td>
+                                        <td></td>
+                                        <td>Ing.A</td>
+                                        <td>Tec.A</td>
+                                        <td>Tec.B</td>
+                                        <td>Ayd</td>
+                                        <td>Total</td>
                                     </tr>
                                     <tr>
-                                        <td><a href="#">Primer Nombre, Primer Apellido</a></td>
-                                        <td>000000</td>
-                                        <td>cedula</td>
-                                        <td><a href="#">corre@dominio.com</a></td>
+                                        <td>Partida</td>
+                                        <td>Concepto</td>
+                                        <td>Ing.A</td>
+                                        <td>Tec.A</td>
+                                        <td>Tec.B</td>
+                                        <td>Ayd</td>
+                                        <td>T en Horas</td>
+                                        <td></td>
+                                        <td>Ing.A</td>
+                                        <td>Tec.A</td>
+                                        <td>Tec.B</td>
+                                        <td>Ayd</td>
+                                        <td>Total</td>
                                     </tr>
                                     <tr>
-                                        <td><a href="#">Primer Nombre, Primer Apellido</a></td>
-                                        <td>000000</td>
-                                        <td>cedula</td>
-                                        <td><a href="#">corre@dominio.com</a></td>
+                                        <td>Partida</td>
+                                        <td>Concepto</td>
+                                        <td>Ing.A</td>
+                                        <td>Tec.A</td>
+                                        <td>Tec.B</td>
+                                        <td>Ayd</td>
+                                        <td>T en Horas</td>
+                                        <td></td>
+                                        <td>Ing.A</td>
+                                        <td>Tec.A</td>
+                                        <td>Tec.B</td>
+                                        <td>Ayd</td>
+                                        <td>Total</td>
                                     </tr>
-                                    <tr>
-                                        <td><a href="#">Primer Nombre, Primer Apellido</a></td>
-                                        <td>000000</td>
-                                        <td>cedula</td>
-                                        <td><a href="#">corre@dominio.com</a></td>
+                                     <tr>
+                                        <td>Dias</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>Dias</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
                                     </tr>
-                                    <tr>
-                                        <td><a href="#">Primer Nombre, Primer Apellido</a></td>
-                                        <td>000000</td>
-                                        <td>cedula</td>
-                                        <td><a href="#">corre@dominio.com</a></td>
+                                     <tr>
+                                        <td>Semanas</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>Semanas</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
                                     </tr>
-                                    <tr>
-                                        <td><a href="#">Primer Nombre, Primer Apellido</a></td>
-                                        <td>000000</td>
-                                        <td>cedula</td>
-                                        <td><a href="#">corre@dominio.com</a></td>
+                                     <tr>
+                                        <td>total</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>Total</td>
                                     </tr>
-                                    <tr>
-                                        <td><a href="#">Primer Nombre, Primer Apellido</a></td>
-                                        <td>000000</td>
-                                        <td>cedula</td>
-                                        <td><a href="#">corre@dominio.com</a></td>
-                                    </tr>
-                                    <tr>
-                                        <td><a href="#">Primer Nombre, Primer Apellido</a></td>
-                                        <td>000000</td>
-                                        <td>cedula</td>
-                                        <td><a href="#">corre@dominio.com</a></td>
-                                    </tr>
-                                    <tr>
-                                        <td><a href="#">Primer Nombre, Primer Apellido</a></td>
-                                        <td>000000</td>
-                                        <td>cedula</td>
-                                        <td><a href="#">corre@dominio.com</a></td>
-                                    </tr>
-                                    <tr>
-                                        <td><a href="#">Primer Nombre, Primer Apellido</a></td>
-                                        <td>000000</td>
-                                        <td>cedula</td>
-                                        <td><a href="#">corre@dominio.com</a></td>
-                                    </tr>
+                                    
                                    
                                 </tbody>
                             </table>
@@ -292,13 +392,149 @@
                 </div>
                 <!-- /.row -->
 
-                
+                 <!-- /.row -->
+
+                <div class="row">
+                    <div class="col-lg-12">
+                        
+                        <div class="table-responsive">
+                            <table class="table table-bordered table-hover table-striped">
+                            <thead>
+                                    <tr>
+                                        
+                                        <th></th>
+                                        <th>9</th>
+                                        <th></th>
+                                        <th></th>
+                                        <th></th>
+                                        <th></th>
+                                        <th></th>
+                                        <th></th>
+                                        <th></th>
+                                        <th></th>
+                                       
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <thead>
+                                    <tr>
+                                        <th>Partida</th>
+                                        
+                                        <th>Ing.A</th>
+                                        <th>Tec.A</th>
+                                        <th>Tec.B</th>
+                                        <th>Ayd</th>
+                                        
+                                        <th></th>
+                                        <th>Ing.A</th>
+                                        <th>Tec.A</th>
+                                        <th>Tec.B</th>
+                                        <th>Ayd</th>
+                                        <th>Total</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Partida</td>
+                                        
+                                        <td>Ing.A</td>
+                                        <td>Tec.A</td>
+                                        <td>Tec.B</td>
+                                        <td>Ayd</td>
+                                        
+                                        <td></td>
+                                        <td>Ing.A</td>
+                                        <td>Tec.A</td>
+                                        <td>Tec.B</td>
+                                        <td>Ayd</td>
+                                        <td>Total</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Partida</td>
+                                       
+                                        <td>Ing.A</td>
+                                        <td>Tec.A</td>
+                                        <td>Tec.B</td>
+                                        <td>Ayd</td>
+                                        
+                                        <td></td>
+                                        <td>Ing.A</td>
+                                        <td>Tec.A</td>
+                                        <td>Tec.B</td>
+                                        <td>Ayd</td>
+                                        <td>Total</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Partida</td>
+                                        
+                                        <td>Ing.A</td>
+                                        <td>Tec.A</td>
+                                        <td>Tec.B</td>
+                                        <td>Ayd</td>
+                                        
+                                        <td></td>
+                                        <td>Ing.A</td>
+                                        <td>Tec.A</td>
+                                        <td>Tec.B</td>
+                                        <td>Ayd</td>
+                                        <td>Total</td>
+                                    </tr>
+                                     <tr>
+                                        <td>total</td>
+                                        
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>Total</td>
+                                    </tr>
+                                    
+                                   
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.row -->
+
                 <!-- /.row -->
 
                 <div class="row">
                     <div class="col-lg-12">
-                        <h2>Notas</h2>
-                        <p>en esta seccion cuentas con toda la informacion necesaria para comunicarte con tu grupo de sercicio comunitario de <a target="_blank" href="http://getbootstrap.com/css/#tables">Ingenieria de Sistemas</a> actualmente cuentas con 10 bachilleres.</p>
+                        
+                        <div class="table-responsive">
+                            <table class="table table-bordered table-hover table-striped">
+                            
+                                <thead>
+                                    <tr>
+                                        <th>Utilidad</th>
+                                        
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>utilidad</td>
+                                        
+                                        
+                                    </tr>
+                                   
+                                    
+                                   
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.row -->
+
+                <div class="row">
+                    <div class="col-lg-12">
+                       
                     </div>
                 </div>
                 <!-- /.row -->
